@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFCA</title>
+</head>
+<body>
+    <h1>UFCA</h1>
+    <hr>
+    <a href="index.html">Início</a>
+    <a href="ufca.html" >UFCA</a>
+    <a href="sobre.html">Sobre</a>
+    <hr>
+    <h2>História</h2>
+    <p><em>A Universidade Federal do Cariri</em> foi criada em <ins>2013</ins> pelo <small>desmembramento</small> da UFC Campus Juazeiro do Norte. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate dolore excepturi molestias quisquam officia? Ut rem officia porro! Perferendis, nobis. Voluptatem nostrum repudiandae accusantium sequi est officiis, hic commodi sit!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, harum ducimus! Quasi, amet voluptates accusantium nostrum odio suscipit, rerum recusandae, illum rem obcaecati expedita autem dolores qui optio nam eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, provident quasi! Eos ut ad, assumenda et harum temporibus sequi numquam magni necessitatibus cupiditate nostrum quia, deleniti sunt, quae accusantium vitae. </p>
+    <p>Veja o vídeo abaixo:</p>
+    <video controls poster="img/ufca2.png" src="video/video-test.mp4"></video>
+    <h2>Brasão</h2>
+    <figure>
+        <img width="10%" src="img/ufca1.png" alt="Brasão da UFCA">
+        <figcaption>Figura 1 - Brasão da UFCA</figcaption>
+    </figure>
+
+    <h2>Consulta estudantes</h2>
+    <p>Consulte os graduados e graduandos da UFCA preenchendo os campos abaixo.</p>
+    <fieldset>
+        <legend>Consulta</legend>
+        <form  accept-charset="UTF-8" action="#" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite o nome" required>
+        <label for="data">Nascimento:</label>
+        <input type="date" name="data">
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" placeholder="Insira a idade">
+        <label for="email">Email:</label>
+        <input type="email" name="email" required placeholder="Digite o email">
+        Discente:
+        Não
+        <input type="radio" name="aluno" value="0">
+        Sim
+        <input type="radio" name="aluno" value="1">
+        Curso:
+        <select name="curso" id="">
+            <option value="CC">Ciência da computação</option>
+            <option value="EN">Engenharia Civil</option>
+            <option value="MC">Matemática computacional</option>
+        </select>
+        
+        <br>
+        <button type="submit">Pesquisar</button>
+        <button type="reset">Limpar campos</button>
+        </form>
+</fieldset>
+</body>
+</html>
